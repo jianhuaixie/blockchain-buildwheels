@@ -123,26 +123,4 @@ OP_CHECKSIG通过对交易进行哈希，并使用<signature>和pubkey来验证�
 
 ### 项目代码
 
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    https://github.com/jianhuaixie/blockchain-buildwheels/tree/master/content/wheels-6/src

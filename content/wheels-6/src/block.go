@@ -54,7 +54,6 @@ func (b *Block) Serialize() []byte {
 	if err != nil {
 		log.Panic(err)
 	}
-
 	return result.Bytes()
 }
 
@@ -67,6 +66,5 @@ func DeserializeBlock(d []byte) *Block {
 	if err != nil {
 		log.Panic(err)
 	}
-
 	return &block
 }
