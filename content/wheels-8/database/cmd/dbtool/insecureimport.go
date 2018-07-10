@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/blockchain-buildwheels/content/wheels-8/chaincfg/chainhash"
+	"github.com/blockchain-buildwheels/content/wheels-9/chaincfg/chainhash"
 	"io"
 	"sync"
 	"time"
