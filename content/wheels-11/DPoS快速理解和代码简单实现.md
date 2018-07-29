@@ -220,3 +220,21 @@ PoS，股权证明机制，每个节点都可以创建区块，并按照个人�
 
 总结：这里没有严格按照DPoS的方式来写代码。一方面是没有在一个周期后将委托人节点进行乱序，另外一方面是没有让所有委托人节点都有出块的权力，当然也没有按照委托人的排序来进行出块进行最长链的选择机制。
 
+代码地址：[https://github.com/jianhuaixie/blockchain-buildwheels/tree/master/content/wheels-12](https://github.com/jianhuaixie/blockchain-buildwheels/tree/master/content/wheels-12)
+
+这个项目运行很简单：
+
+	go build main.go
+	./main.exe 3000
+	
+	//新开一个终端
+	cp blockchain_3000.db blockchain_3001.db
+	./main 3001 
+
+	//新开一个终端
+	cp blockchain_3000.db blockchain_3002.db
+	./main 3002 
+
+	//新开一个终端
+	cp blockchain_3000.db blockchain_3003.db
+	./main 3003
